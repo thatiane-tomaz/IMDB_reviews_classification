@@ -1,7 +1,7 @@
 
 
 <!-- PROJECT LOGO -->
-  <h3 align="center">IMDB Reviews Classification</h3>
+  <h2 align="center">IMDB Reviews Classification</h2>
 
   <p align="center">
 
