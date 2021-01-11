@@ -5,12 +5,7 @@
 
   <p align="center">
   
-<img
-src=“images/github/imdb_logo.jpg”
-raw=true
-alt=“IMDB Logo”
-style=“margin-right: 10px;”
-/>
+  ![alt text](https://uploaddeimagens.com.br/imagens/WgObpNM.jpg)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
