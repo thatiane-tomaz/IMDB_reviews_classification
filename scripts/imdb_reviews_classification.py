@@ -24,7 +24,6 @@ import matplotlib.pyplot as plt
 
 # Preprocessing
 
-
 df = pd.read_csv('IMDB Dataset.csv')
 
 #normalizing to lowercase letters
@@ -60,7 +59,7 @@ pickle.dump(tf_transformer, open("tfidf1_v3.pkl", "wb"))
 X_tf = tf_transformer.fit_transform(X)
 
 
-# training model
+# Training Model - Random Forest
 
 y = df['sentiment']
 
@@ -76,7 +75,7 @@ classifier.fit(X_train, y_train)
 
 
 
-# testing model and analyzing the results
+# Testing model and analyzing the results
 
 # predict
 y_pred = classifier.predict(X_test)
@@ -86,3 +85,5 @@ print("Accuracy score:")
 print(accuracy_score(y_test, y_pred))
 print("AUC score:")
 print(roc_auc_score(y_test, y_score))
+
+
