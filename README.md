@@ -4,8 +4,7 @@
   <h3 align="center">IMDB Reviews Classification</h3>
 
   <p align="center">
-  
-  ![alt text](https://uploaddeimagens.com.br/imagens/WgObpNM.jpg)
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
