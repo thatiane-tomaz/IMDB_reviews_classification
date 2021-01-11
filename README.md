@@ -1,15 +1,16 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/github/imdb_logo.jpeg" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">IMDB Reviews Classification</h3>
 
   <p align="center">
+  
+<img
+src=“images/github/imdb_logo.jpg”
+raw=true
+alt=“IMDB Logo”
+style=“margin-right: 10px;”
+/>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
