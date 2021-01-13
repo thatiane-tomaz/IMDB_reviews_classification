@@ -14,6 +14,7 @@ This script is for IMDB Reviews Classification using Bag of Words (BoW) and Rand
 The dataset is available at Kaggle and contains 50.000 reviews.
 
 
+
 ### Getting Started
 
 I am using Anaconda (Python 3.8) and the following packages:
@@ -22,6 +23,7 @@ I am using Anaconda (Python 3.8) and the following packages:
 - matplotlib
 - scikit learn
 - nltk
+
 
 
 ### Code Steps
@@ -47,15 +49,20 @@ The classification was trained using the Random Forest model. This model consist
 The results were analyzed usin the confusion matrix, accuracy, AUC score and ROC Curve. From these parameters it is possible to understand the relationship between true positives, false positives, true negatives and false negatives.
 
 
+
+
 ### Conclusions
 
 The results of this modeling demonstrate that it is a reliable way to classify texts, which can be used for a closer relationship with customers, allowing companies' strategies to be directed from the customers' opinion in an efficient way.
+
+
 
 
 <!-- CONTRIBUTING -->
 ### Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
 
 
 
