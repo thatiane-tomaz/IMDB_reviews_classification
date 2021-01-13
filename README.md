@@ -7,14 +7,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
   
 This script is for IMDB Reviews Classification using Bag of Words (BoW) and Random Forest methods.
 
 The dataset is available at Kaggle and contains 50.000 reviews.
 
 
-## Getting Started
+### Getting Started
 
 I am using Anaconda (Python 3.8) and the following packages:
 - pandas
@@ -23,27 +23,44 @@ I am using Anaconda (Python 3.8) and the following packages:
 - scikit learn
 - nltk
 
+
+### Code Steps
+#### Preprocessing
+
+During the preprocessing stage the database was prepared to be used in model training. 
+* special characters and links have been removed;
+* words have been turned into tokens;
+* words with little meaning for understanding the text, called stopwords, have been removed;
+* the stemming process was applied, using the Porter Stemming algorithm, to reduce the inflected words to a root.
+
+#### Bag of Words (BoW) - TF-IDF
+
+The text data was represented using the bag-of-words model. This way, the presence or absence of each word will be used as a feature for the classification model. 
+The TF-IDF is used to reflect the importance of each word based on its frequency in all reviews. This importance is a number between 0 and 1, this number being inversely proportional to the frequency, since the higher its frequency, the less important it will be, as it has less relevance in differentiating classifications.
+
+#### Model Training
+
+The classification was trained using the Random Forest model. This model consists of a group of Decision Trees, where each node is a word and the final result for a classification is the most frequent among the results of each Decision Tree.
+
+#### Model Training
+
+The results were analyzed usin the confusion matrix, accuracy, AUC score and ROC Curve. From these parameters it is possible to understand the relationship between true positives, false positives, true negatives and false negatives.
+
+
+### Conclusions
+
+The results of this modeling demonstrate that it is a reliable way to classify texts, which can be used for a closer relationship with customers, allowing companies' strategies to be directed from the customers' opinion in an efficient way.
+
+
 <!-- CONTRIBUTING -->
-## Contributing
+### Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 <!-- LICENSE -->
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
