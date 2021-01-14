@@ -11,8 +11,6 @@
   
 This script is for IMDB Reviews Classification using Bag of Words (BoW) and Random Forest methods.
 
-The dataset is available at Kaggle and contains 50.000 reviews.
-
 
 
 ### Getting Started
@@ -27,7 +25,7 @@ It was used Anaconda (Python 3.8) and the following packages:
 
 ### Data
 
-The dataset available in this repository is just a sample. It is possible to download the complete dataset in: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+The dataset available in this repository is just a sample, with 15.000 reviews. It is possible to download the complete dataset that contains 50.000 reviews in: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 
 ### Code Steps
