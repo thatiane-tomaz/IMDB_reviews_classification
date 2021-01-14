@@ -25,6 +25,10 @@ I am using Anaconda (Python 3.8) and the following packages:
 - nltk
 
 
+### Data
+
+The dataset available in this repository is just a sample. It is possible to download the complete dataset in: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 
 ### Code Steps
 #### Preprocessing
@@ -50,11 +54,9 @@ The results were analyzed usin the confusion matrix, accuracy, AUC score and ROC
 
 
 
-
 ### Conclusions
 
 The results of this modeling demonstrate that it is a reliable way to classify texts, which can be used for a closer relationship with customers, allowing companies' strategies to be directed from the customers' opinion in an efficient way.
-
 
 
 
