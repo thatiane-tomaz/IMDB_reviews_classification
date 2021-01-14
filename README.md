@@ -17,7 +17,7 @@ The dataset is available at Kaggle and contains 50.000 reviews.
 
 ### Getting Started
 
-I am using Anaconda (Python 3.8) and the following packages:
+It was used Anaconda (Python 3.8) and the following packages:
 - pandas
 - numpy
 - matplotlib
@@ -48,9 +48,9 @@ The TF-IDF is used to reflect the importance of each word based on its frequency
 
 The classification was trained using the Random Forest model. This model consists of a group of Decision Trees, where each node is a word and the final result for a classification is the most frequent among the results of each Decision Tree.
 
-#### Model Training
+#### Results
 
-The results were analyzed usin the confusion matrix, accuracy, AUC score and ROC Curve. From these parameters it is possible to understand the relationship between true positives, false positives, true negatives and false negatives.
+The Test dataset results were analyzed using the confusion matrix, accuracy, AUC score and ROC Curve. From these parameters it is possible to understand the relationship between true positives, false positives, true negatives and false negatives.
 
 
 
